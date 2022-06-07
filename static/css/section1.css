@@ -4,12 +4,12 @@
   height: 100%;
   overflow: hidden;
   background: rgb(30,87,153);
-  background: -moz-radial-gradient(center, ellipse cover,  #d84a4a 0%, #e2a2b2 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d84a4a), color-stop(100%,#e2a2b2));
-  background: -webkit-radial-gradient(center, ellipse cover,  #d84a4a 0%,#e2a2b2 100%);
-  background: -o-radial-gradient(center, ellipse cover,  #d84a4a 0%,#e2a2b2 100%);
-  background: -ms-radial-gradient(center, ellipse cover,  #d84a4a 0%,#e2a2b2 100%);
-  background: radial-gradient(ellipse at center,  #d84a4a 0%,#e2a2b2 100%);
+  background: -moz-radial-gradient(center, ellipse cover,  #d84a4a 0%, #ba1919 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d84a4a), color-stop(100%,#ba1919));
+  background: -webkit-radial-gradient(center, ellipse cover,  #d84a4a 0%,#ba1919 100%);
+  background: -o-radial-gradient(center, ellipse cover,  #d84a4a 0%,#ba1919 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  #d84a4a 0%,#ba1919 100%);
+  background: radial-gradient(ellipse at center,  #d84a4a 0%,#ba1919 100%);
 
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
@@ -81,19 +81,19 @@
   top: 110px;
 }
 .char1 {
-  transform: rotate(-36deg);
+	transform: rotate(-36deg);
 }
 .char2 {
-  transform: rotate(-18deg);
+	transform: rotate(-18deg);
 }
 .char3 {
-  transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 .char4 {
-  transform: rotate(18deg);
+	transform: rotate(18deg);
 }
 .char5 {
-  transform: rotate(36deg);
+	transform: rotate(36deg);
 }
 
 #bottom span {
@@ -107,13 +107,13 @@
 }
 
 #bottom .char1 {
-  transform: rotate(18deg);
+	transform: rotate(18deg);
 }
 #bottom .char2 {
-  transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 #bottom .char3 {
-  transform: rotate(-18deg);
+	transform: rotate(-18deg);
 }
 
 .love {
